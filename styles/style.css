@@ -12,15 +12,29 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-.top_players_s {
-  width: 77%;
+.container {
+  width: 70%;
   margin: 0 auto;
   padding: 30px;
+  background-color: white;
+  /* margin: 30px 0; */
 }
+section#top_section {
+  margin-top: 30px;
+}
+
 
 .title h2 {
   text-transform: capitalize;
 }
+.title h2 {
+  color: #562EFF;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  margin-bottom: 14px;
+}
+
 .players_wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,8 +56,24 @@ body{
   align-items: center;
   gap: 1em;
 }
-
-
-.top_players_s {
-  background-color: white;
+hr{
+  border-top: 2px solid gray;
+  margin: 20px 0;
 }
+
+/* top blog section css hear -
+----------------------- */
+
+article.blogs_wrapper {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+.singel_blog {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.l_image img {
+  width: 177px;
+  height: 117px;
+}
+
