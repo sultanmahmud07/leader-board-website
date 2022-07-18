@@ -76,4 +76,27 @@ article.blogs_wrapper {
   width: 177px;
   height: 117px;
 }
+ 
+/* last section css hear  */
 
+
+#last_s{
+  margin-top: 30px;
+}
+.artical_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+/* .artical_wrapper {
+  display: grid;
+} */
+
+.banner_image img {
+  width: 224px;
+  height: 104;
+}
+
+.box_info {
+  display: flex;
+  justify-content: space-between;
+}
